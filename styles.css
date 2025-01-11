@@ -7,10 +7,9 @@ body{
 .header{
     background-color: #1F2937;
     margin: 0;
-    padding: 16px;
-    padding-bottom: 80px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 200px;
+    padding-bottom: 100px;
+    padding-top: 20px;
     flex-shrink: 0;
 }
 
@@ -91,14 +90,14 @@ button{
 
 .space1, .space2, .space3, .space4 {
     border: 3px solid #3882F6;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 10px;
     margin-bottom: 5px;
 }
 
 .block1, .block2, .block3, .block4{
-    width: 100px;
+    width: 150px;
 }
 
 .subtitle {
@@ -111,7 +110,7 @@ button{
 
 .subtext, ul, .description {
     font-size: 18;
-    color: #a2a3a4;
+    color: #c7c8c9;
 }
 
 .blocks {
@@ -122,4 +121,60 @@ button{
     padding-right: 200px ;
 }
 
+.section2 {
+    padding-bottom: 100px;
+}
+
+.section3 {
+    background-color: #E5E7EB ;
+    padding: 110px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    padding-bottom: 8px;
+}
+
+.author{
+    text-align: end;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.section4 {
+    padding: 110px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.blue-box{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.big{
+    color: white;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.button2 {
+    border-color: white;
+}
+
+.footer{
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-color: #1F2937;
+    color: #c7c8c9;
+}
 
